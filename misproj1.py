@@ -321,14 +321,3 @@ b3.place(x=200,y=380)
 
 
 window.mainloop()
-
-'''
-         
-
-         butt=customtkinter.CTkButton(master=la,text="Connect To Database",font=("Helvetica",18),anchor=CENTER,
-                    width=16,bg="#7F7FFF",fg="White",bd=4,command=db_connect)
-         butt.grid(row=0,column=3,padx=5,pady=5,sticky="w")
-
-         leftframe=customtkinter.CTkFrame(master=la)
-         leftframe.grid(row=1,column=0)
-         '''
